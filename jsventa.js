@@ -35,13 +35,13 @@ function Agregar() {
 function total(){
 var total = 0;
     for (var i = 0; i < precios.length; i++) {
-        Promedio += precios[i];
+        total += precios[i];
     }
-    var doscifras = Promedio;
+    var doscifras = total;
     document.getElementById('Pt4').innerHTML = doscifras;
-//Buscar Alumnos Por Matricula
+
 }
-//Recarga La Pagina
+
 function Again() {
     location.reload();
 }
