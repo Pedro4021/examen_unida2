@@ -1,10 +1,10 @@
-//Arreglos Que Se Usan Pa' Funcionar, Obvio Jajaja :v
+
 var nombres = [];
 var precios = [];
 var cantidades = [];
 var newarracompra = [];
 
-//Hace La Agregacion :v De Los Alumnos
+
 function Agregar() {
     
     var lool1 = prompt("Nombre");
@@ -15,7 +15,7 @@ function Agregar() {
     cantidades.push(lool3);
     
 
-    //Implementacion De Una Parte Del Codigo Profe Para Que Funcione El Punto 5 y 6 Jaja :'v
+   
     var compra = {
         nombre: lool1,
         precio: lool2,
@@ -26,7 +26,7 @@ function Agregar() {
 
     
 
-    //Imprime La Lista De Alumnos
+    
     document.getElementById('nombre').innerHTML += compra.nombre + "<br>";
     document.getElementById('precio').innerHTML += compra.precio + "<br>";
     document.getElementById('cantidad').innerHTML += compra.cantidad+ "<br>";
